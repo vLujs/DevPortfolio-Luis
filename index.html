@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Luis's Porfolio</title>
+</head>
+
+<body>
+    <!-- Seccion del navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Luis's Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Seccion inicial -->
+    <main>
+        <div class="main-container">
+            <section class="section">
+
+                <div class="main-tittle">
+                    <h1>HI! Am Luis.</h1>
+                </div>
+
+                <div class="main-subtittle">
+                    <h2>Am a software developer</h2>
+                </div>
+
+                <div class="about-me">
+                    
+                </div>
+
+                <div class="info-container">
+                    <div class="container">
+                        <a href="resources/cv-luis.pdf" download="cv-luis">
+                            <button class="button">My CV</button>
+                        </a>
+                    </div>
+                <div class="a-container">
+                        <a href="https://github.com/vLujs"><img src="./resources/github-icon.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/luis-diego-obando-56b403251/"> <img src="./resources/linkedin-icon.webp" alt="linkedin"></a>
+                </div>
+                </div>
+            </section>
+            <aside>
+                <div class="main-animation">
+                    <dotlottie-player 
+                        src="https://lottie.host/50e2b65d-d454-495a-bad5-8ec9b28bc8f6/zNIruMVA88.json"
+                        background="transparent" 
+                        speed="1" 
+                        style="width: 500px; height: 500px;" 
+                        loop autoplay>
+                    </dotlottie-player>
+                </div>
+            </aside>
+        </div>
+        <button id="scrollTopBtn" class="scroll-top-btn">↑</button>
+    </main>
+
+    <!-- Seccion Sobre mi -->
+        <section class="section">
+            <h1 class="proyects-section-tittle">My Proyects</h1>
+        
+        
+            <div class="card">
+                <div class="card-img">
+                    <img src="resources/loginstreamingo.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#">
+                        <span class="title">
+                            StreaminGo
+                        </span>
+                    </a>
+        
+                    <p class="desc">
+                        StreaminGo is a websaite were you can watch movies with your friends at the same time while chatting and
+                        sending reactions
+                    </p>
+                    <div class="tech-container">
+                        <a href="https://github.com/StreaminGo2024/StreaminGo-BE">
+                            <button class="btn-github">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" height="15" width="15">
+                                    <path fill="currentcolor"
+                                        d="M7.99992 1.33331C7.12444 1.33331 6.25753 1.50575 5.4487 1.84078C4.63986 2.17581 3.90493 2.66688 3.28587 3.28593C2.03563 4.53618 1.33325 6.23187 1.33325 7.99998C1.33325 10.9466 3.24659 13.4466 5.89325 14.3333C6.22659 14.3866 6.33325 14.18 6.33325 14C6.33325 13.8466 6.33325 13.4266 6.33325 12.8733C4.48659 13.2733 4.09325 11.98 4.09325 11.98C3.78659 11.2066 3.35325 11 3.35325 11C2.74659 10.5866 3.39992 10.6 3.39992 10.6C4.06659 10.6466 4.41992 11.2866 4.41992 11.2866C4.99992 12.3 5.97992 12 6.35992 11.84C6.41992 11.4066 6.59325 11.1133 6.77992 10.9466C5.29992 10.78 3.74659 10.2066 3.74659 7.66665C3.74659 6.92665 3.99992 6.33331 4.43325 5.85998C4.36659 5.69331 4.13325 4.99998 4.49992 4.09998C4.49992 4.09998 5.05992 3.91998 6.33325 4.77998C6.85992 4.63331 7.43325 4.55998 7.99992 4.55998C8.56659 4.55998 9.13992 4.63331 9.66659 4.77998C10.9399 3.91998 11.4999 4.09998 11.4999 4.09998C11.8666 4.99998 11.6333 5.69331 11.5666 5.85998C11.9999 6.33331 12.2533 6.92665 12.2533 7.66665C12.2533 10.2133 10.6933 10.7733 9.20659 10.94C9.44659 11.1466 9.66659 11.5533 9.66659 12.1733C9.66659 13.0666 9.66659 13.7866 9.66659 14C9.66659 14.18 9.77325 14.3933 10.1133 14.3333C12.7599 13.44 14.6666 10.9466 14.6666 7.99998C14.6666 7.1245 14.4941 6.25759 14.1591 5.44876C13.8241 4.63992 13.333 3.90499 12.714 3.28593C12.0949 2.66688 11.36 2.17581 10.5511 1.84078C9.7423 1.50575 8.8754 1.33331 7.99992 1.33331V1.33331Z">
+                                    </path>
+                                </svg>
+                                <span>View on Github</span>
+                            </button>
+                        </a>
+                        <a href="">
+                            <img src="resources/angularlogo.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="resources/javalogo.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="resources/mariadblogo.png" alt="">
+                        </a>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Skills-->
+
+        <section class="section">
+            <div class="skills-tittle">
+                <h1>Skills</h1>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="resources/angularlogo.png" alt="angular">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/javalogo.webp" alt="java">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/mysqllogo.png" alt="mysql">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/gitlogo.webp" alt="git">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/springlogo.png" alt="spring">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/mariadblogo.png" alt="mariadb">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/postmanlog.png" alt="postamn">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/insomnialogo.png" alt="insomnia">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/htmllogo.png" alt="html">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/csslogo.png" alt="css">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/jslogo.png" alt="js">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/Sasslogo.png" alt="Sass">
+                </div>
+                <div class="skill-card">
+                    <img src="resources/insomnialogo.png" alt="insomnia">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="skills-tittle">
+                <h1>About me</h1>
+            </div>
+            <div class="aboutme-container">
+                <div class="aboutme-animation">
+                    <dotlottie-player 
+                        src="https://lottie.host/106222a6-cd7a-4729-a8d9-b294cec09719/GheefFv2pM.json" 
+                        background="transparent" 
+                        speed="1" 
+                        style="width: 400px; height: 400px;" 
+                        loop autoplay>
+                    </dotlottie-player>
+                </div>
+                <aside>
+                    <h2 class="main-subtittle">
+                        <p class="top-parragraf">I'm Luis, a passionate software developer with a strong background in building web
+                            applications. I thrive on solving complex problems and creating efficient, user-friendly solutions.</p>
+                
+                        <p>With experience in both front-end and back-end technologies, I focus on writing clean, scalable code that
+                            enhances performance. Whether I'm working on a new feature or optimizing an existing system, I always aim to
+                            deliver high-quality results.</p>
+                    </h2>
+                </aside>
+            </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Js/index.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="social-icons">
+            <a><img src="./resources/maillogo.png" alt="Mail"></a>
+            <h2 class="h2-footer">luisitobando820@gmail.com</h2>
+            <a><img src="./resources/github-icon.png" alt="github"></a>
+            <h2 class="h2-footer">vLujs</h2>
+        </div>
+    </div>
+</footer>
+</html>
